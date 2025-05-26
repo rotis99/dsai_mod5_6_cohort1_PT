@@ -2,11 +2,11 @@
     <meta name ="viewport" content ="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
 </head>
-
 <body>
     <div class="container">
-        <h6>reply {{r}}</h6>
-        <form action="/main" method="post">        
+        <h2>Financial Advisor Chatbot in Telegram</h2>
+        <h4>{{status}}</h4>
+        <form action="/home" method="post">         
             <input type="submit" value="Main">
         </form>
     </div>
